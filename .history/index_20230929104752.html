@@ -8,7 +8,7 @@
     <!-- UNICONS -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <!-- Adicionar favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
 
@@ -20,7 +20,7 @@
         <!-- --------------- CABEÇALHO --------------- -->
         <nav id="header">
             <div class="nav-logo">
-                <p class="nav-name">Lucindo</p>
+                <p class="nav-name">Doe</p>
                 <span>.</span>
             </div>
             <div class="nav-menu" id="myNavMenu">
@@ -43,6 +43,9 @@
                     </li>
                 </ul>
             </div>
+            <div class="nav-button">
+                <button class="btn">Baixar CV <i class="uil uil-file-alt"></i></button>
+            </div>
             <div class="nav-menu-btn">
                 <i class="uil uil-bars" onclick="myMenuFunction()"></i>
             </div>
@@ -55,7 +58,7 @@
             <section class="featured-box" id="home">
                 <div class="featured-text">
                     <div class="featured-text-card">
-                        <span>Matheus Lucindo</span>
+                        <span>João Doe</span>
                     </div>
                     <div class="featured-name">
                         <p>Eu sou <span class="typedText"></span></p>
@@ -69,8 +72,10 @@
                     <div class="social_icons">
                         <div class="icon"><i class="uil uil-instagram"></i></div>
                         <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
-                        <div class="icon"><i class="uil uil-figma"></i></div>
+                        <div class="icon"><i class="uil uil-twitter"></i></div>
                         <div class="icon"><i class="uil uil-github-alt"></i></div>
+                        <div class="icon"><i class="uil uil-figma"></i></div> <!-- Adicionado ícone do Figma -->
+                    </div>
                 </div>
                 <div class="featured-image">
                     <div class="image">
@@ -94,8 +99,9 @@
                     <div class="col">
                         <div class="about-info">
                             <h3>Minha Introdução</h3>
-                            <p><p>Tenho experiência em HTML, CSS e JavaScript, além de ter trabalhado com o Power BI e estar familiarizado com diversas funcionalidades do Figma.</p>
-
+                            <p>Tenho experiência em HTML, CSS e JavaScript, além de outras frameworks e bibliotecas
+                                modernas, o que me permite implementar recursos interativos. Além disso, tenho
+                                experiência com sistemas de gerenciamento de conteúdo (CMS) como o WordPress.
                             </p>
                         </div>
                     </div>
@@ -107,9 +113,36 @@
                             <div class="skills-list">
                                 <span>HTML</span>
                                 <span>CSS</span>
+                                <span>Bootstrap</span>
                                 <span>JavaScript</span>
+                                <span>Vue</span>
+                                <span>React</span>
+                                <span>Angular</span>
                             </div>
                         </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Backend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>PHP</span>
+                                <span>JAVA</span>
+                                <span>Python</span>
+                                <span>C++</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Banco de Dados</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>MySQL</span>
+                                <span>PostgreSQL</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!-- -------------- PROJETOS ---------------- -->
@@ -122,12 +155,17 @@
                     <div class="project-box">
                         <i class="uil uil-briefcase-alt"></i>
                         <h3>Concluídos</h3>
-                        <label>31+ Projetos Finalizados</label>
+                        <label>15+ Projetos Finalizados</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="uil uil-users-alt"></i>
+                        <h3>Clientes</h3>
+                        <label>25+ Clientes Satisfeitos</label>
                     </div>
                     <div class="project-box">
                         <i class="uil uil-award"></i>
                         <h3>Experiência</h3>
-                        <label>1 Ano na área</label>
+                        <label>7+ Anos na área</label>
                     </div>
                 </div>
             </section>
@@ -143,9 +181,25 @@
                     <div class="col">
                         <div class="contact-info">
                             <h2>Me Encontre <i class="uil uil-corner-right-down"></i></h2>
-                            <p><i class="uil uil-envelope"></i> Email: matheuslucindo904@gmail.com</p>
-                            <p><i class="uil uil-phone"></i> +55 11 97166-6817</p>
+                            <p><i class="uil uil-envelope"></i> Email: joao@doe.com</p>
+                            <p><i class="uil uil-phone"></i> +55 11 91234-5678</p>
                         </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="Nome">
+                                <input type="text" class="input-field" placeholder="Email">
+                            </div>
+                            <div class="text-area">
+                                <textarea placeholder="Mensagem"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">Enviar <i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
         </main>
@@ -154,7 +208,7 @@
         <!-- --------------- RODAPÉ --------------- -->
         <footer>
             <div class="top-footer">
-                <p>Matheus Lucindo .</p>
+                <p>João Doe .</p>
             </div>
             <div class="middle-footer">
                 <ul class="footer-menu">
@@ -180,7 +234,7 @@
                 <div class="icon"><i class="uil uil-figma"></i></div> <!-- Adicionado ícone do Figma -->
             </div>
             <div class="bottom-footer">
-                <p>Direitos Autorais &copy; <a href="#home" style="text-decoration: none;">Matheus Lucindo</a> - Todos os direitos
+                <p>Direitos Autorais &copy; <a href="#home" style="text-decoration: none;">João Doe</a> - Todos os direitos
                     reservados
                 </p>
             </div>
@@ -195,7 +249,7 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!-- ----- MAIN JS ----- -->
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>

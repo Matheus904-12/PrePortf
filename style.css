@@ -3,17 +3,17 @@
 
 /* ----- VARIABLES ----- */
 :root{
-    --body-color: rgb(250, 250, 250);
-    --color-white: rgb(255, 255, 255);
+    --body-color: #fafafa;
+    --color-white: #ffffff;
 
-    --text-color-second: rgb(68, 68, 68);
-    --text-color-third: rgb(30, 159, 171);
+    --text-color-second: #000000;
+    --text-color-third: #6e57e0;
 
     --first-color: rgb(110, 87, 224);
     --first-color-hover: rgb(40, 91, 212);
 
-    --second-color: rgb(110, 87, 224);
-    --third-color: rgb(192, 166, 49);
+    --second-color: #6e57e0;
+    --third-color: #00297f;
     --first-shadow-color: rgba(0, 0, 0, 0.1);
 
 }
